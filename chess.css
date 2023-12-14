@@ -1,0 +1,18 @@
+table{
+    border: 1px solid red;
+ background-color: peru;
+}
+td{
+    width: 20px;
+    height: 20px;
+}
+tr:nth-child(odd) td:nth-child(odd) ,
+tr:nth-child(even) td:nth-child(even) 
+
+
+{
+  background-color: burlywood;
+}
+td{
+    text-align: center;
+}
