@@ -1,0 +1,36 @@
+#container{
+
+    /* background: rgb(34,193,195); */
+/* background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%); */
+    width: 200px;
+    background: rgb(34,193,195);
+background: radial-gradient(circle, rgba(34,193,195,1) 0%, rgba(223,45,253,1) 100%);
+border-radius: 10px;
+    
+}
+
+button{
+    border-radius: 10px;
+    border: 2px solid rgb(145, 145, 144);
+    padding: 10px;
+    margin-top: 10px;
+
+}
+
+#button{
+    
+    padding-left: 20px;
+    
+}
+input{
+    border-radius: 20px;
+    padding: 10px;
+    border: 2px solid rgb(255, 243, 178);
+    text-align: right;
+    
+
+}
+
+
+
+
