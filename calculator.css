@@ -1,15 +1,15 @@
 #container{
 
     /* background: rgb(34,193,195); */
-/* background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%); */  
-width: 200px;
+/* background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%); */
+margin-top: 20vh;
+padding: 20px;  
+width:220px;
 background: rgb(34,193,195);
 background: radial-gradient(circle, rgba(34,193,195,1) 0%, rgba(223,45,253,1) 100%);
 border-radius: 10px;
 background-color: rgb(130, 130, 130);
 border: 2px solid black;
-
-
 }
 
 button{
@@ -38,14 +38,6 @@ text-align: right;
     
 
 }
-
-#container{
-height: 70vh;
-display: flex;
-align-items: center;
-justify-content: center;
-}
-
 #equal{
 
 padding: 15px;
