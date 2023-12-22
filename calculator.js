@@ -1,31 +1,59 @@
 let output =document.getElementById('input')
 
 
-output.innerHTML='monosh'
+
 function display(num){  
     // console.log(num)
-   output.value +=num;
+   output.value=output.value +num;
 }
 
 function calculate(){
 
-    try{
-        output.value=eval(output.value)
-    }
-    catch(err){
-      
-    }
+if(output.value!=0){
+        output.value=eval(output.value) //eval(2+22)=24
+}
 
-
+else{
+    alert("Enter Something")
+}
     // let value = eval(output.value);
     // console.log(value)
 }
 
 function Clear(){
 
-    output.value="";
+    output.value="";  
 }
 
 function del(){
-    output.value=output.value.slice(0,-1)
+    output.value=output.value.slice(0,-1)  // slice 0 for starting  -1 for end
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
