@@ -46,7 +46,103 @@
         </div>
     </form>
 
-    <script src="../javascript/from.js"></script>
+    <script >
+
+
+let form=document.getElementById('form')
+let username = document.getElementById('username')
+let email = document.getElementById('email')
+let password  = document.getElementById('password')
+let cpassword = document.getElementById('cpassword')
+
+
+
+
+form.addEventListener('submit' ,e=>{
+
+ e.preventDefault();  /* when we click the register button  stop reload*/
+
+ checkInput();
+
+})
+
+
+function checkInput(){
+
+ const usernamevalue=username.value.trim(); /* trim helps to remove space */
+ const emailvalue=email.value.trim();
+ const passwordvalue=password.value.trim();
+ const cpasswordvalue=cpassword.value.trim();
+
+
+ if(usernamevalue ===''){
+
+    setError(username,'Invalid name')
+ }
+ else{
+    setSuccess(username);
+ }
+
+
+
+ if(emailvalue ===''){
+    setError(email,'Must enter email')
+ }
+ else if(!isEmail(emailvalue)){
+
+    setError(email,'not a valid Email');
+ }
+ else{
+    setSuccess(email);
+ }
+
+
+ if(passwordvalue ===''){
+
+    setError(password,'enter password')
+ }
+ else{
+    setSuccess(password);
+ }
+
+ if(cpasswordvalue ===''){
+
+    setError(cpassword,'enter password')
+ }
+ else if(passwordvalue !== cpasswordvalue){
+
+    setError(cpassword,'password does not match')
+ }
+ else{
+    setSuccess(cpassword);
+ }
+
+
+}
+
+function setError(input , message){
+    const formControl = input.parentElement;
+    let small=formControl.querySelector('small');
+    formControl.className='form-control error';
+    small.innerText=message;
+
+}
+
+function setSuccess(input) {
+    const formControl = input.parentElement;
+    formControl.className = 'form-control success';  // Corrected class name to 'success'
+}
+
+
+function isEmail(email){
+
+    return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+}
+
+
+
+
+    </script>
 </body>
 
 </html>
