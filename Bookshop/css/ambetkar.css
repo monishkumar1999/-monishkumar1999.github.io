@@ -1,0 +1,175 @@
+
+.navbar {
+    /* position: sticky; */
+    top: 0;
+    box-shadow: 5px 5px 20px rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    border: 2px solid aqua;
+    box-shadow: 10px 10px 30px rgb(84, 84, 84);
+    
+  }
+
+  .back{
+    color: rgb(196, 196, 196);
+    
+   }
+
+   .brand{
+    margin-left: 10px;
+  }
+  
+
+  .ambImg{
+    width: 250px;
+    margin-top: 50px;
+    padding: 5px;
+    border: 2px solid black;
+    box-shadow: 10px 10px 30px rgb(74, 74, 74);
+    background-color: white;
+  }
+
+  .bookDetails{
+    margin-top: 100px;
+  }
+
+  .about{
+    color: rgb(224, 2, 2);
+  }
+
+  a{
+    text-decoration: none;
+    color: black;
+  }
+
+ 
+  .price{
+    margin-top: 30px;
+    color: red;
+  }
+
+  .rate{
+    color: rgb(106, 106, 106);
+  }
+
+  .orginalPrice{
+    margin-left: 10px;
+    color: black;
+  }
+
+  .stock{
+    color: rgb(0, 255, 0);
+  }
+
+
+  .checked {
+    color: orange;
+  }
+
+  .uncheked{
+    color: rgb(187, 187, 187);
+
+  }
+
+  .addcard{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+  }
+  .whislist{
+    color: white;
+    position: relative;
+    bottom: 5px;
+    font-size: 10px;
+  }
+
+  .about{
+    position: relative;
+    
+  }
+
+  .aboutBook {
+    position: relative;
+    top: 20px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   font-weight: 50px;
+}
+
+.bookDtails{
+  color: rgb(56, 56, 56);
+  font-family: 'Times New Roman', Times, serif;
+}
+
+
+.order{
+  margin-top: 150px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(240, 26, 26);
+  width: 400px;
+  height: 60px;
+  border: 3px solid rgb(255, 255, 255);
+  border-radius: 10px;
+  font-family: fantasy;
+  box-shadow: 10px 10px 20px rgb(45, 45, 45);
+  font-size: 23px;
+  text-align: center;
+}
+
+.order1{
+  margin-top: 20px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(248, 23, 23);
+  width: 400px;
+  height: 60px;
+  border: 3px solid rgb(255, 255, 255);
+  border-radius: 10px;
+  box-shadow: 10px 10px 20px rgb(101, 101, 101);
+  font-family: fantasy;
+  font-size: 23px;
+  text-align: center;
+}
+
+.orderFont{
+  font-size: 20px;
+  margin-right: 20px;
+}
+
+.button:hover{
+background-color: rgb(255, 0, 0);
+border: 3px solid rgb(150, 150, 150);
+box-shadow: 10px 10px 30px rgb(255, 255, 255);
+}
+
+
+.user{
+  color: aliceblue;
+  margin-right: 20px;
+}
+
+.heart{
+  /* margin-top: 10px; */
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  position: relative;
+  right: 20px;
+  color: aliceblue;
+}
+
+.heart1{
+  color: rgb(255, 0, 43);
+  font-size: 18px;
+ position: relative;
+  top: 1px;
+}
+
+.myorders{
+  color: white;
+}
+
+body{
+  background: rgb(245,135,255);
+background: -moz-radial-gradient(circle, rgba(255, 255, 255, 0.675) 0%, rgba(164,255,240,1) 82%);
+background: -webkit-radial-gradient(circle, rgba(255, 255, 255, 0.675) 0%, rgba(164,255,240,1) 82%);
+background: radial-gradient(circle, rgba(219, 214, 214, 0.675) 0%, rgb(212, 255, 250) 82%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f587ff",endColorstr="#a4fff0",GradientType=1);
+}
+
+

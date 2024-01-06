@@ -1,0 +1,184 @@
+/* Common styles for all screens */
+* {
+  background-size: cover;
+}
+
+.navbar {
+  position: sticky;
+  top: 0;
+  box-shadow: 5px 5px 20px rgb(255, 255, 255);
+  background-color: rgb(14, 14, 14);
+}
+
+.navbar .navbar-brand {
+  font-size: 25px;
+  font-weight: 800;
+  color: rgb(255, 255, 255);
+}
+
+#navbarSupportedContent a {
+  color: rgb(255, 255, 255);
+}
+
+a:hover {
+  background-color: rgb(87, 90, 90);
+  border-radius: 10px;
+}
+
+#navbarSupportedContent button {
+  border: 1px solid rgb(255, 252, 252);
+  background-color: rgb(0, 0, 0);
+  width: 5rem;
+  border-radius: 10px;
+  color: white;
+  border: 2px solid aqua;
+  text-align: center;
+}
+
+#navbarSupportedContent .register_button {
+  margin-left: 10px;
+}
+
+#navbarSupportedContent button:hover {
+  border: 3px solid rgb(0, 0, 0);
+}
+
+
+section {
+  padding-top: 20px;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Home */
+#home {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../image/1338193.png);
+  background-size: cover;
+  background-position: center;
+}
+
+#home h1 {
+  font-family: 'Helvetica', sans-serif;
+  font-size: 100px;
+  color: aliceblue;
+  letter-spacing: 3px;
+  text-shadow: 0px 1px 0px rgb(226, 226, 226),
+    0px 2px 0px white,
+    0px 3px 0px rgb(255, 255, 255),
+    0px 4px 0px white,
+    0px 5px 0px white,
+    0px 6px 0px rgb(201, 201, 201),
+    0px 7px 0px rgb(129, 129, 129);
+}
+
+#home p {
+  color: white;
+  font-size: 19px;
+}
+
+#home .input-group {
+  width: 40%;
+  height: 45px;
+}
+
+.signin {
+  background-color: aqua;
+}
+
+/* About */
+#About {
+  background-color: black;
+  padding: 150px 0;
+  width: 100%;
+}
+
+#About .container {
+  text-align: center;
+}
+
+#About .container p {
+  text-align: justify;
+}
+
+#About h2 {
+  color: #fffdfd;
+}
+
+#About p {
+  font-size: 18px;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.fa-facebook {
+  color: #4267B2;
+  font-size: 40px;
+  position: relative;
+}
+
+.fa-instagram {
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  border-radius: 10px;
+  font-size: 40px;
+}
+
+.fa-twitter {
+  color: #1DA1F2;
+  font-size: 40px;
+}
+
+.logo {
+  position: relative;
+  left: 50px;
+  top: 200px;
+}
+
+.contact-form {
+  text-align: center;
+  padding: 20px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+#contact label {
+  margin-bottom: 8px;
+}
+
+.contact-form button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 20px;
+}
+
+.contact-form button:hover {
+  background-color: #45a049;
+}
+
+#contact {
+  background-color: black;
+  color: white;
+}
+
+#contact .name {
+  border: 2px solid aqua;
+  border-radius: 3px;
+}
+
+/* Media Queries */
+
+

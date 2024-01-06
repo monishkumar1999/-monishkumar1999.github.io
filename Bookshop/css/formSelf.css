@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+   background-color: #000000;
+     display:flex;
+     justify-content: center;
+   color: white;
+     margin: 0;
+     
+} 
+
+.container{
+
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    overflow: hidden;
+     max-width: 100%;
+     width: 400px;
+     height: 600px;
+     border: 2px solid rgb(0, 255, 247);
+}
+
+.header{
+    border-bottom: 1px solid rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    
+    font-size: 20px;
+}
+
+#form{
+    padding: 30px 40px;
+}
+
+.form-control{
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    position: relative;
+}
+
+.form-control label{
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.form-control input{
+     border: 2px solid gainsboro;
+     border-radius: 5px;
+     display: block;   /* next line */
+     font-size: 14px;
+     padding: 10px;
+     width: 100%;
+}
+
+.form-control input:focus{    /* when click input */
+    outline: none;
+    border: 2px solid rgb(244, 244, 159);
+}
+
+.form-control.success input {
+    border-color: greenyellow;
+}
+
+.form-control.error input {
+    border-color: red;
+}
+.form-control small{
+    color: red;
+    visibility: hidden;
+
+}
+
+.form-control.error small{
+    visibility: visible;
+}
+
+.form button{
+    width: 100%;
+background-color: #00fff7;
+padding: 15px;
+border-radius: 10px;
+font-size: 20px;
+
+}
+
+
+
+
+
+
+
+
