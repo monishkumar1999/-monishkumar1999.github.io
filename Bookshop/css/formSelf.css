@@ -4,7 +4,11 @@
 
 
 body{
-   background-color: #000000;
+    background: rgb(245,135,255);
+    background: -moz-radial-gradient(circle, rgba(255, 255, 255, 0.675) 0%, rgba(164,255,240,1) 82%);
+    background: -webkit-radial-gradient(circle, rgba(255, 255, 255, 0.675) 0%, rgba(164,255,240,1) 82%);
+    background: radial-gradient(circle, rgba(219, 214, 214, 0.675) 0%, rgb(212, 255, 250) 82%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f587ff",endColorstr="#a4fff0",GradientType=1);
      display:flex;
      justify-content: center;
    color: white;
