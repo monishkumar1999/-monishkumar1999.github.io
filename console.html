@@ -1,7 +1,283 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="UTF-8"><!DOCTYPE html>
+<html lang="en">
+<head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <style>
+
+iframe{
+
+    width: 700px;
+    height: 500px;
+    border: 1px solid black;
+}
+textarea{
+    height: 300px;
+    position: relative;
+    bottom: 195px;
+}
+button{
+    position: relative;
+    position: left;
+    right: 200px;
+    bottom: 100px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 47, 255);
+    border: 1px solid rgb(255, 255, 255);
+    width: 100px;
+    height: 50px;
+   text-align: center;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-weight: bolder;
+   font-size: 14px;
+}
+button:hover{
+    background-color: rgb(103, 103, 255);
+}
+
+h3{
+    color: rgb(0, 0, 0);
+  text-align: center;
+  
+   width: 500px;
+   position: relative;
+   left: 300px;
+}
+
+
+
+.javacode{
+    color: blue;
+    position: relative;
+    top: 50px;
+    left: 69px;
+}
+
+.javacode1{
+    color: blue;
+    position: relative;
+    /* top: 20px; */
+    left: 699px;
+}
+
+span{
+    font-size: 10px;
+    color: rgb(61, 61, 61);
+}
+
+    </style>
+
+    <!-- <input type="text-area" value="Hello World" id="myInput"> -->
+
+<h3 class="h3">ATM Java console projects <span>(ATMPIN:7748)</span></h3>
+
+<hr>
+
+<h4 class="javacode">Java code</h4>
+
+<h4 class="javacode1">Compiler</h4>
+    <textarea id="myInput" name="dd" id=""  cols="30" rows="10">
+
+        import java.util.Scanner;
+
+public class Atm {
+	
+	int pin;
+	int amount;
+	 String name="monish";
+	Atm(int pin,int amount) {
+		this.pin=pin;
+		this.amount=amount;
+	}
+public static void main(String[] args) {
+	
+	Atm  a=new Atm(7748,1000);
+	a.checkPin();
+	
+	
+}
+
+void checkPin() {
+	Scanner sc = new Scanner(System.in);
+	System.out.println("enter pin");
+	int userPin=sc.nextInt();
+	
+	if(userPin==pin) {
+		System.out.println("Welcome "+name);
+		process();
+	}
+	else {
+		System.out.println("wrong password");
+		checkPin();
+	}
+}
+
+void process() {
+	System.out.println("enter 1 for deposit");
+	System.out.println();
+	System.out.println("Enter 2 for withdraw");
+	System.out.println();
+	System.out.println("enter 3 for balanceCheck");
+	System.out.println();
+	System.out.println("Enter 4 for mini Statemnt");
+	
+	Scanner sc = new Scanner(System.in);
+	int process = sc.nextInt();
+	
+	if(process==1) {
+		deposit();
+	}
+	
+	if(process==2) {
+		withdra();
+	
+	}
+	
+	if(process==3) {
+		balance();
+	}
+	
+	if(process==4) {
+		ministatement();
+	}
+}
+
+void deposit() {
+	Scanner sc = new Scanner(System.in);
+	System.out.println("enter amount");
+	int amount1 = sc.nextInt();
+	amount=amount+amount1;
+	System.out.println("your amount deposited successfully");
+	System.out.println();
+	System.out.println("current balance "+amount);
+	System.out.println();
+	System.out.println("enter 1 to countinu");
+	System.out.println("enter 2 for exit");
+	int after = sc.nextInt();
+	
+	if(after==1) {
+		process();
+	}
+	else {
+		System.out.println("thank you");
+	}
+
+}
+
+void withdra() {
+	System.out.println("                     balance");
+	
+	Scanner sc = new Scanner(System.in);
+	System.out.println("enter amount");
+	int amount1 = sc.nextInt();
+	
+	if(amount1>amount) {
+		System.out.println("you exceed amount");
+		
+		
+	}
+	else {
+	amount=amount-amount1;
+	
+	System.out.println("your amount withdrawl successfully");
+	System.out.println();
+	System.out.println("current balance "+amount);
+	System.out.println();
+	System.out.println("enter 1 to countinu");
+	System.out.println("enter 2 for exit");
+	int after = sc.nextInt();
+	
+	if(after==1) {
+		process();
+	}
+	else {
+		System.out.println("thank you");
+	}
+	
+	}
+	
+}
+
+void balance() {
+	System.out.println("                     balance");
+	System.out.println();
+	
+	System.out.println("Your balance is "+amount);
+	System.out.println();
+	Scanner sc = new Scanner(System.in);
+	System.out.println("enter 1 to countinue");
+	System.out.println("enter 2 for exit");
+	int after = sc.nextInt();
+	
+	if(after==1) {
+		process();
+	}
+	else {
+		System.out.println("thank you");
+	}
+	
+}
+
+void ministatement() {
+	System.out.println();
+	System.out.println("this service currently not avilable");
+	
+	System.out.println();
+	Scanner sc = new Scanner(System.in);
+	System.out.println("enter 1 to countinue");
+	System.out.println("enter 2 for exit");
+	int after = sc.nextInt();
+	
+	if(after==1) {
+		process();
+	}
+	else {
+		System.out.println("thank you");
+	}
+}
+
+}
+        
+    </textarea>
+
+    
+
+   
+        <button onclick="myFunction()">Copy text</button>
+    
+  
+
+    <iframe src="https://www.programiz.com/java-programming/online-compiler/" frameborder=""></iframe>
+
+
+
+<script>
+    function myFunction() {
+ 
+    var copyText = document.getElementById("myInput");
+  
+    copyText.select();
+    copyText.setSelectionRange(0, 99999); 
+  
+  
+    navigator.clipboard.writeText(copyText.value);
+  
+   
+    alert("PIN is 7748" );
+  }
+</script>
+    
+</body>
+</html>
+
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
