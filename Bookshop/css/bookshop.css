@@ -15,6 +15,13 @@
   font-weight: 800;
   color: rgb(255, 255, 255);
 }
+.contact{
+  color: rgb(255, 255, 255);
+  text-align: center;
+  position: relative;
+  bottom: 150px;
+  left: 400px;
+}
 
 #navbarSupportedContent a {
   color: rgb(255, 255, 255);
@@ -180,5 +187,35 @@ section {
 }
 
 /* Media Queries */
+@media screen and (max-width: 768px) {
+  .contact {
+    bottom: 50px;
+    left: 20px;
+  }
 
+  #home h1 {
+    font-size: 60px;
+  }
+
+  #home .input-group {
+    width: 80%;
+  }
+
+  #About {
+    padding: 50px 0;
+  }
+
+  #About .container {
+    padding: 0 20px;
+  }
+
+  #About p {
+    font-size: 16px;
+  }
+
+  .logo {
+    left: 20px;
+    top: 100px;
+  }
+}
 
