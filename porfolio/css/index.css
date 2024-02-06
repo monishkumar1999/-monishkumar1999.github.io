@@ -9,7 +9,7 @@
 
 
 .role {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: rgb(255, 105, 67);
     
 }
@@ -18,11 +18,11 @@
     position: relative;
     top: 100px;
     font-size: 70px;
-   
+    
 }
 .java {
     color: rgb(97, 97, 97);
-    font-family: cursive;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     position: relative;
     left: 40px;
     font-size: 30px;
@@ -192,13 +192,14 @@ footer {
     margin-top: 200px;
 
 }
-
 .aboutPa {
     position: relative;
     bottom: 50px;
-   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-   font-weight: 300;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600; 
+    text-align: justify;
 }
+
 
 .gimage{
     width: 400px;
