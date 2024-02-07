@@ -73,7 +73,7 @@
 }
 
 
-.java {
+.javaim {
     width: 200px;
     position: relative;
     left: -40px;
@@ -233,29 +233,76 @@ footer {
 }
 
 
-
-@media (max-width: 430px) {
-    .moniImg img {
-        width: 350px;
-        left: 10px;
+@media only screen and (max-width: 480px) {
+    .javaim{
         position: relative;
-        top: 100px;
+        left: 60px;
+        top: -430px;
+        width: 200px;
     }
 
-    .name {
+    .html{
         position: relative;
-        top: 30px;
-        left: 60px;
+        right: 100px;
+    }
+
+    .css{
+        position: relative;
+         left: 100px;
+        top: -80px;
+    }
+
+    .js{
+        position: relative;
+        left: 300px;
+        top: -220px;
     }
 
     .bootstrap{
         position: relative;
-        left: 20px;
+        left: -150px;
+        top: -200px;
     }
 
-    
+    .spring{
+        position: relative;
+        right: -190px;
+        top: -620px;
+    }
 
+    .psql{
+        position: relative;
+        top: -280px;
+    }
+    .git{
+        position: relative;
+        top: -280px;
+    }
+
+.project{
+    position: relative;
+    top: -600px;
 }
+
+.about{
+    position: relative;
+    top: -600px;
+}
+.aboutP{
+    position: relative;
+    left: 50px;
+}
+.gimage{
+    width: 300px;
+    position: relative;
+    right: 50px;
+}
+
+.foti{
+    margin: 30px;
+}
+}
+
 
 
 
