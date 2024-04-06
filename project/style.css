@@ -1,0 +1,269 @@
+body {
+    width: 100%;
+}
+
+.bg {
+    background-color: rgb(29, 89, 255);
+
+}
+
+.d-card {
+    display: flex;
+    justify-content: center;
+}
+
+.header a {
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.header {
+
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+
+
+.logo {
+    width: 60px;
+}
+
+.brand {
+    font-family: serif;
+}
+
+.nav-item {
+    padding-left: 60px;
+}
+
+.up {
+    text-transform: uppercase;
+}
+
+
+/* resposive table  */
+
+
+.men {
+
+    height: 100px;
+}
+
+.women {
+    height: 100px;
+    position: relative;
+    right: 36px;
+}
+
+.radi {
+    border: 2px solid rgb(255, 251, 251);
+    border-radius: 190px;
+
+}
+
+.list p {
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+/* cursol */
+
+.cursl {
+    height: auto;
+    width: 100%;
+    border: 0.5px solid rgb(239, 239, 239);
+
+}
+
+
+
+
+/* dumy_cards */
+.card {
+    width: 250px;
+
+}
+
+.card-body {
+    text-align: center;
+}
+
+.card-title {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+}
+
+.card-text {
+    font-family: serif;
+    font-weight: 700;
+}
+
+.dumy_cards {
+    padding-top: 60px;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content:
+        space-around;
+    padding-left: 30px;
+}
+
+.card-img-top {
+    height: 200px;
+    width: 100%;
+}
+
+.price {
+    color: green;
+    font-weight: 900;
+}
+
+.checked {
+    color: orange;
+}
+
+/* log in  */
+
+.form-inputs {
+    padding: 10px
+}
+
+/* footer  */
+
+.foot {
+
+    background-color: rgb(29, 89, 255);
+    padding-top: 30px;
+}
+
+.footer a {
+
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+.footer a:hover {
+
+    color: rgb(161, 160, 160);
+
+}
+
+.footer p {
+    padding-top: 30px;
+    color: rgb(128, 128, 128);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.address {
+    color: white;
+}
+
+.social-logo {
+    padding: 20px;
+}
+
+
+
+
+
+/* form  */
+
+
+.modal a {
+    text-decoration: none;
+}
+
+.modal h1 {
+    text-align: center;
+    color: rgb(29, 89, 255);
+}
+
+.col-sm-5 {
+    font-weight: 600;
+}
+
+.form-inputs {
+    padding-top: 30px;
+}
+
+.men-header {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 800;
+}
+
+.modal-content {
+    background-color: rgb(201, 201, 201);
+}
+
+tr {
+    padding-top: 20px;
+}
+
+.dropdown-menu input{
+
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* mobile views  */
+
+
+@media screen and (max-width: 600px) {
+
+
+    .cursl {
+        height: 200px;
+    }
+
+    .card-img-top {
+
+        width: 100px;
+    }
+
+    .dumy_cards {
+
+        width: 300px;
+        padding-top: 40px;
+    }
+
+    .header {
+
+        position: sticky;
+        top: 0;
+        z-index: 3;
+    }
+
+    .footer-img {
+        width: 20px;
+    }
+
+
+}
+
+
+
+
+/* js control */
+
+
+.error{
+    color: red;
+}
+
+
+.dropdown-menu a{
+    background-color: rgb(29, 89, 255);
+}
+
+.dropdown{
+    background-color: rgb(29, 89, 255);
+}
+
+.dropdown ul {
+    background-color: rgb(29, 89, 255);
+}
